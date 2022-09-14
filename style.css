@@ -1,0 +1,166 @@
+
+
+body{
+    background-color:#F3F5FC;
+    
+}
+#logo{
+    position: absolute;
+    height: 48px;
+    width: 31.09px;
+    left: 66px;
+    top: 36px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;  
+}
+.encriptador{
+
+    width: 60%;
+} 
+.input-texto{
+    height: 10%;
+    width: 70%;
+    margin: 15% 0% 0% 25%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+    line-height: 150%;
+    background-color:#F3F5FC;
+    border: none   
+}
+::placeholder{
+    color: #0A3871;  
+}
+
+.soloMinusculas{
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-size: 77%;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 3%;
+    width: 29%;
+    position: absolute;
+    left: 17%;
+    top: 78%;
+    gap: 4%;
+}
+.botones{
+    position: absolute;
+    left: 13%;
+    top: 85%; 
+    display: flex;
+    width: 40%;
+    height: 5%;
+    gap: 4%;   
+}
+.encriptar:hover{
+    
+    transition: 1s all;
+    background: #041e3d;
+    border: 1px solid #041e3d;
+}
+.encriptar{
+    border: 1px solid #0A3871;
+    border-radius: 18px;
+    background: #0A3871;
+    width: 50%;
+    color: #F3F5FC;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+.desencriptar:hover{
+    
+    transition: 1s all;
+    background: #9a9fa7;
+    border: 1px solid #041e3d;
+}
+.desencriptar{    
+    border-radius: 18px;
+    border: 1px solid #0A3871;
+    background: #D8DFE8;
+    width: 50%;
+    color: #0A3871;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#gitHub{
+    position: absolute;
+    width: 3%;
+    left: 6%;
+    top: 90%;
+    
+}
+#Linkedin{
+    position: absolute;
+    width: 3%;
+    left: 2%;
+    top: 90%;
+
+}
+.mensajeEncriptado{
+
+    width: 40%;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #343A40;
+}     
+.mensaje{
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+    left: 6%;
+    top: 3%;
+    width: 47%;
+    height: 70%;
+    position: relative;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat ;
+    background-position: 50%;
+    background-size: 85%;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    padding: 4%;
+    font-family: Inter;
+    font-size: 95%;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #343A40;
+}
+.copiar:hover{
+    
+    transition: 1s all;
+    background: #9a9fa7;
+    border: 1px solid #041e3d;
+}
+.copiar{
+    border-radius: 18px;
+    border: 1px solid #0A3871;
+    background: #D8DFE8;
+    color: #0A3871;
+    position: absolute;
+    left: 78%;
+    top: 85%; 
+    width: 8%;
+    height: 5%;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: cursive;
+}
+
