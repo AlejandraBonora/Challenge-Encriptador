@@ -31,7 +31,8 @@ main{
     font-size: 200%;
     line-height: 150%;
     background-color:#F3F5FC;
-    border: none   
+    border: none;
+    outline: none;
 }
 ::placeholder{
     color: #0A3871;  
@@ -142,6 +143,7 @@ main{
     letter-spacing: 0em;
     text-align: center;
     color: #343A40;
+    outline: none;
 }
 .copiar:hover{
     
